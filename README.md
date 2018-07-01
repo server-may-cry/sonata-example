@@ -1,4 +1,10 @@
-# Code assessment
+## Result
+
+```sh
+make test
+make db
+make web-server
+```
 
 ## Prequel
 

@@ -84,6 +84,7 @@ $config = PhpCsFixer\Config::create()
     ->setFinder(
         PhpCsFixer\Finder::create()
             ->in('./src')
+            ->in('./tests')
             ->in('./config')
             ->ignoreVCS(true)
             ->ignoreDotFiles(true)

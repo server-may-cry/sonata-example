@@ -1,20 +1,33 @@
 {
+    "name": "server-may-cry/sonata-example",
+    "description": "",
     "type": "project",
     "license": "proprietary",
     "require": {
-        "php": "^7.2",
+        "php": "^7.1",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "phpstan/phpstan": "^0.9.2",
-        "phpstan/phpstan-strict-rules": "^0.9.0",
+        "sonata-project/admin-bundle": "^3.35",
+        "sonata-project/doctrine-orm-admin-bundle": "^3.6",
         "symfony/console": "^4.1",
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^4.1",
         "symfony/lts": "^4@dev",
+        "symfony/orm-pack": "^1.0",
+        "symfony/test-pack": "^1.0",
         "symfony/yaml": "^4.1"
     },
     "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.0",
+        "friendsofphp/php-cs-fixer": "^2.12",
+        "liip/functional-test-bundle": "^2.0.0-alpha4",
+        "phpstan/phpstan": "^0.10.0",
+        "phpstan/phpstan-strict-rules": "^0.10.0",
+        "symfony/browser-kit": "^4.1",
+        "symfony/css-selector": "^4.1",
         "symfony/dotenv": "^4.1",
+        "symfony/maker-bundle": "^1.5",
+        "symfony/profiler-pack": "^1.0",
         "symfony/web-server-bundle": "^4.1"
     },
     "config": {
